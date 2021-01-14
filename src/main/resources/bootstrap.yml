@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: lwg.cool:8848
+        file-extension: yaml
+  application:
+    name: fileupload
+  profiles:
+    active: dev
